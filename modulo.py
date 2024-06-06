@@ -1,3 +1,9 @@
+def exibir_menu():
+    print('1 - Calcular Quadrilátero')
+    print('2 - Calcular Círculo')
+    print('3 - Calcular Triângulo')
+    print('4 - Calcular Trapézio')
+    print('5 - Sair do programa')
 
 def calcular_quadrilatero(base, altura):
     area_quadrilatero = base * altura
